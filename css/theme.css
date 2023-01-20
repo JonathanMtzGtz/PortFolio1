@@ -10037,6 +10037,5 @@ img {
     transform: perspective(2500px) rotateX(100deg); }
   html:not(.no-js) [data-aos=flip-down].aos-animate {
     -webkit-transform: perspective(2500px) rotateX(0);
-    transform: perspective(2500px) rotateX(0); } }
-
-   
+    transform: perspective(2500px) rotateX(0); 
+  } }
