@@ -1,3 +1,3 @@
-# Portfo
+# Portfolio
 Portfolio Jonathan Martinez Gutierrez
-new website
+new website v1.0
