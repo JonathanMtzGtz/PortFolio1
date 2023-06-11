@@ -36,7 +36,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #202020;
   --bs-primary-rgb: 23, 23, 229;
-  --bs-secondary-rgb: 138, 138, 142;
+  --bs-secondary-rgb: 247, 248, 252;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -490,6 +490,7 @@ progress {
 
 .img-fluid {
   max-width: 100%;
+ 
   height: auto; }
 
 .img-thumbnail {
@@ -2983,7 +2984,7 @@ textarea.form-control-lg {
   .nav-tabs .nav-item.show .nav-link {
     color: var(--bs-nav-tabs-link-active-color);
     background-color: var(--bs-nav-tabs-link-active-bg);
-    border-color: var(--bs-nav-tabs-link-active-border-color); }
+  }
   .nav-tabs .dropdown-menu {
     margin-top: calc(-1 * var(--bs-nav-tabs-border-width));
     border-top-left-radius: 0;
@@ -6199,6 +6200,7 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important; }
+  
 
 .mb-auto {
   margin-bottom: auto !important; }
@@ -10048,3 +10050,10 @@ img {
     left: 0;
     z-index: -1;
   }
+  .icons, svg {
+    margin-right: 5px;
+      }
+      .icons{
+        color: white !important;
+     
+      }
