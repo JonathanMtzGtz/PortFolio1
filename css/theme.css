@@ -10042,6 +10042,7 @@ img {
     transform: perspective(2500px) rotateX(0); 
   } }
  .video {  
+  filter: brightness(0.7);
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -10057,3 +10058,8 @@ img {
         color: white !important;
      
       }
+      .mail {
+        text-decoration: none;
+        
+      }
+    

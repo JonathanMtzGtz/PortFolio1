@@ -5,10 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
   <meta name="description" content="Portafolio Jonathan Martinez Gutierrez">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon.png">
+  
   <meta name="author" content="Jonathan Martinez and Holger Koenemann">
   <meta name="generator" content="Eleventy v2.0.0">
     <title>Portafolio</title>
@@ -21,21 +18,17 @@
 
 
 </head>
+<link rel="manifest" href="js/manifest.json" />
 <link rel="stylesheet" href="js/main.js">
 <body class="bg-black text-white mt-0" data-bs-spy="scroll" data-bs-target="#navScroll">
 
   <nav id="navScroll" class="navbar navbar-dark position-absolute fixed-top px-vw-5" tabindex="0">
     <div class="container">
       <a class="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center" href="index.html">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-stack"
-          viewBox="0 0 16 16">
-          <path
-            d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z" />
-          <path
-            d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z" />
-        </svg>
-        <span class="ms-md-1 mt-1 fw-bolder me-md-5 ">Jonathan Martinez Gutierrez</span>
+        <img src="img/logo.png" width="59px" alt="">
+        
       </a>
+      <a class="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center" href="index.html" ><span class="ms-md-1 mt-1 fw-bolder me-md-5 ">Jonathan Martinez Gutierrez</span></a>
 
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal">
         <li class="nav-item">
@@ -71,13 +64,13 @@
         <div class="row d-flex align-items-center justify-content-center py-vh-5">
           <div class="col-12 col-xl-10">
          
-            <h1 class="fw-lighter">ING</h1>
-            <h1 class="display-huge mt-3 mb-3 lh-1 title">Virtual Environments and Digital Business</h1>
+            <h1 class="title"data-aos="fade-left">ING</h1>
+            <h1 class="display-huge mt-3 mb-3 lh-1 title  "data-aos="fade-right">Virtual Environments and Digital Business</h1>
           </div>
           <div class="col-12 col-xl-8">
             
           </div>
-          <div class="col-12 text-center">
+          <div class="col-12 text-center" data-aos="fade-up">
             <a href="#porfolio" class="btn btn-xl btn-light">Portfolio
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                 class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -96,13 +89,13 @@
     <div class="bg-black position-relative " >
       <div class="container px-vw-5 py-vh-5">
         <div class="row d-flex align-items-center"  id="porfolio">
-          <div class="col-12 col-lg-5 text-center text-lg-end" data-aos="zoom-in-right">
-            <img src="img/perfil.jpg"  alt="abstract image"
-              class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up">
+          <div class="col-12 col-lg-5 text-center text-lg-end" data-aos="fade-right">
+            <img src="img/perfil.jpg" width="500px"  alt="abstract image"
+              class="img-fluid position-relative rounded-5 shadow" >
    
-            <h2 class="" id="porfolio"> Jonathan Martinez Gutierrez</h2>
+            <h2 class="text-center" id="porfolio"> Jonathan Martinez Gutierrez</h2>
           </div>
-          <div class="col-12 col-lg-7 bg-dark rounded-5 py-vh-3 text-center my-5" data-aos="zoom-in-up">
+          <div class="col-12 col-lg-7 bg-dark rounded-5 py-vh-3 text-center my-5" data-aos="fade-left">
             <h2 class="display-huge mb-5">
              <span class="border-bottom border-5">Quien soy?</span>
             </h2>
@@ -117,8 +110,18 @@
     </div>
 
 
-    <div class=" bg-black position-relative">
-      <div class="container px-vw-5 py-vh-5">
+
+
+
+
+
+
+
+
+
+
+    <div class=" px-4 py-5  bg-black">
+      <div class="  bg-black container px-vw-5 py-vh-5">
         <div class="row d-flex align-items-center">
     
           <div class="col-12 col-lg-7">
@@ -136,7 +139,7 @@
               <img class="img-fluid rounded-5 ms-5 mb-n5 shadow" src="img/6.png" width="230" 
               alt="another nice person" loading="lazy" data-aos="zoom-in-up">
           </div>
-          <div class="col-12 col-lg-5  rounded-5 py-5" data-aos="fade">
+          <div class="col-12 col-lg-5  rounded-5 py-5" data-aos="fade-left">
             <h3 class="pt-5 border-bottom">Trabajos recientes!</h3>
             <p class="text-secondary">Desarrollo de diseños publicitarios con modelos 3d y animaciones, edicion de video y fotografia asi como la carga de productos en sitios Web Shopify , wordpress <br>
               <a href="portafolio.html" class="link-fancy link-fancy-light me-2">Mas</a>
@@ -156,7 +159,7 @@
         <div class="row d-flex gx-5 align-items-center">
           <div class="col-12 col-lg-6"> 
             
-            <video loop muted autoplay poster="" class="-video" width="500px" >
+            <video loop muted autoplay poster="" class="-video" width="500px" data-aos="fade-up" >
               <source src="video/alien.mp4" type="video/mp4" data-aos="zoom-in-up">
               </video>
 
@@ -172,7 +175,7 @@
 
               </div>
             
-            <div class="rounded-5  p-5 shadow mt-5 " data-aos="zoom-in-right" >
+            <div class="rounded-5  p-5 shadow mt-5 " data-aos="fade-up" >
              
                   
               <video loop muted autoplay poster="" class="-video" width="500px"  >
@@ -210,10 +213,14 @@
                 </div>
               </div>
             </div>
+
+      
           </div>
+
         </div>
       </div>
     
+      
     </div>
 
     <div class=" bg-black position-relative">
@@ -235,7 +242,7 @@
               <img class="img-fluid rounded-5 ms-5 mb-n5 shadow" src="img/personajes/humano.png" width="230" 
               alt="another nice person" loading="lazy" data-aos="zoom-in-up">
           </div>
-          <div class="col-12 col-lg-5  rounded-5 py-5" data-aos="fade">
+          <div class="col-12 col-lg-5  rounded-5 py-5" data-aos="fade-left">
             <span class="h5 text-secondary fw-lighter">Diseño de personajes</span>
             <h2 class="display-4">Creacion de Personajes! </h2>
           </div>
